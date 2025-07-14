@@ -150,6 +150,9 @@ This is a full-stack Solana trading bot application built with React, TypeScript
 - July 11, 2025. User suggested visual chart enhancement: plotting buy/sell trades with dates and profit/loss visualization - added to Phase 1.5 roadmap
 - July 13, 2025. Fixed critical token activity API bug - enhanced address detection logic to correctly identify tokens vs wallets, token endpoints now show trading activity for specific tokens (multiple wallets trading that token) instead of mixed token data
 - July 13, 2025. Created comprehensive 24/7 deployment package with Railway/Render configurations, Docker setup, and complete deployment guides ready for production launch
+- July 13, 2025. Confirmed zero external API costs - system runs entirely on free Solana RPC and DexScreener APIs, providing massive competitive advantage over platforms paying $100-500/month for market data
+- July 13, 2025. Fixed Railway deployment issues - corrected Dockerfile to install all dependencies during build phase then clean up, resolved environment variable configuration for production deployment
+- July 14, 2025. Resolved Railway build failures - updated Dockerfile to use npx commands directly instead of package.json build script, bypassing "vite: not found" errors in Docker container builds
 
 ## Current Status & 24/7 Copy Trading Deployment Ready
 
